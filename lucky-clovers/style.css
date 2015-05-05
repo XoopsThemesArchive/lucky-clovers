@@ -1,0 +1,183 @@
+/* Lucky*Clover Style Sheet   */
+/* auther -  artNOMAD <info@art-nomad.net>  */
+/* web - http://art-nomad.net/   */
+/* editor -  michiji <michiji_taru@yahoo.co.jp>  */
+/* web - http://lucky-clovers.com  */
+/* this theme is licensed under a Creative Commons License 2.0 2004   */
+/* CCL - http://creativecommons.org/licenses/by/2.0/  */
+
+/* 全般設定 */
+body {color: black; font-family: "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Osaka",verdana, arial, sans-serif; background-color: #E2F6DA; margin: 0px; padding: 0px;}
+img {border:0px;}
+
+/* テーブル設定 */
+table {width: 100%; font-size: 12px; background-color: #FFFFFF;}
+table td {padding: 0px; border-width: 0px; vertical-align: top; font-family: "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Osaka",verdana, arial, sans-serif;}
+table#main {background-color: transparent; width: 760px;}
+table#head {background-color: #81B781; width: 760px;}
+
+/* 全般的なリンク */
+a {color: #548F54; text-decoration: underline; background-color: transparent;}
+a:hover {color: #FF9933; text-decoration: underline;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul {margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li {margin-left: 2px; list-style: square inside; color: #666666;}
+
+input.formButton {}
+
+/* 最新ニュースの枠 */
+.item {color: #666666;}
+/* 最新ニュースのタイトルバー */
+.itemHead {padding: 3px; color: #336699;}
+/* 最新ニュースの投稿情報欄 */
+.itemInfo {text-align: right; padding: 3px; background-color: #FFFFFF;}
+/* 最新ニュースのタイトルの設定 */
+.itemTitle {font-size: 130%; font-weight: bold; font-color: #336699; background-color: transparent;}
+.itemTitle a {font-color: #336699; background-color: transparent;}
+.itemTitle a:hover {font-color: #336699; background-color: transparent;}
+/* 最新ニュースの投稿者 */
+.itemPoster {font-size: 80%; font-style: italic;}
+/* 最新ニュースの投稿日 */
+.itemPostDate{font-size: 80%; font-style: italic;}
+/* 最新ニュースのステータス */
+.itemStats {font-size: 80%; font-style: italic;}
+/* 最新ニュースのコンテンツ部分 */
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 150%; font-size: 12px;}
+/* 最新ニュースの1文字目 Mac IE 対応*/
+/*
+\*/
+.itemText:first-letter { font-size: 150%; font-weight: bold;}
+/*
+*/
+/* 最新ニュースのフッター */
+.itemFoot {text-align: left; padding: 3px; background-color: #FFFFFF; font-size: 11px;}
+.itemAdminLink {font-size: 100%;}
+.itemPermaLink {font-size: 100%;}
+
+th {background-color: #99BBCC; color: #FFFFFF; vertical-align: middle; font-family: "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Osaka",verdana, arial, sans-serif;}
+
+/* ヘッダーロゴ */
+td#headerlogo {border-bottom: 8px solid #81B781;} 
+
+/* メニューバー */
+td#menubar {vertical-align: bottom; border-left: 10px solid #81B781; border-right: 10px solid #81B781;}
+td#menubar a {color: #336699;}
+td#menubar a:hover {color: #FFFFFF;}
+
+/* タブ */
+td#tab {background: #81B781;}
+td#tab div.active {background: #81B781; font-weight: bold; font-size: 11px; text-align: center; padding:3px; border-right: 1px solid #81B781; background: url(images/tab.gif); background-repeat: no-repeat; background-position: 0% 0%;}
+td#tab div.active a {color: #333333; text-decoration: none; padding:3px;} 
+td#tab div.nonactive a {color: #548F54; font-weight: bold; background: #81B781; font-size: 11px; padding:3px; border-right: 1px solid #81B781; text-decoration: none; background: url(images/tab2.gif); display: block;}
+td#tab div.nonactive a:hover {color: #FFFFFF; font-weight: bold; text-decoration: none; background: url(images/tab3.gif);} 
+
+/* ヘッダバー */
+td#headerbar {vertical-align: middle; background: #FFFFFF; color: #333333; padding: 5px; text-align: left; border-left: 10px solid #81B781; border-right: 10px solid #81B781;}
+
+td#headeruser {font-size:9px; vertical-align: middle; background: #FFFFFF; color: #333333; padding-left: 15px; text-align: left; border-bottom:1px solid #CCCCCC;}
+td#headeruser a{color: #ff9933; text-decoration: underline; font-weight: bold; background-color: transparent;}
+td#headeruser a:hover {color: #548F54; text-decoration: underline;}
+td#search {vertical-align: center; border-bottom:1px solid #CCCCCC; padding-top: 0px; padding-bottom: 5px; }
+
+/* ヘッダーバナー */
+td#headerbanner {font-size:10px; background: #FFFFFF; color: #333333; padding: 15px 0px 15px 0px; text-align: center; border-left: 10px solid #81B781;}
+
+/* メインメニュー */
+td#mainmenu a {color: #666666; font-size: 11px; display: block; background: url(images/tri.gif); background-repeat: no-repeat; background-position: left; padding-left: 15px; font-weight: normal; line-height: 90%;}
+td#mainmenu a:hover {background-color: #FFFFFF; color: #FF9933; background: url(images/tri2.gif); background-repeat: no-repeat; background-position: left;}
+td#mainmenu a.menuTop {padding-left: 15px;}
+td#mainmenu a.menuMain {padding-left: 15px;}
+td#mainmenu a.menuSub {padding-left: 23px; color: #666666; font-weight: normal; background-image: none; background-color: #E2F6DA;}
+td#mainmenu a.menuSub:hover{padding-left: 23px; color: #ff9933; font-weight: normal;}
+
+/* ユーザーメニュー */
+td#usermenu a {background-color: #FFFFFF; color: #002B55; font-weight: normal; font-size: 10px; padding-left: 5px; padding-bottom: 0px;}
+td#usermenu a:hover {background-color: #FFFFFF; color: #FF9933;}
+td#usermenu a.highlight {background-color: #fcc;}
+
+/* テーブル内左右の余白 */
+td#left  {width: 10px; background-color: #81B781;}
+td#right {width: 10px; background-color: #81B781;}
+
+/* 左コラム */
+td#leftcolumn {color: #81B781; width: 145px; font-size: 11px; padding-top: 8px; padding-left: 8px; padding-right: 8px;}
+td#leftcolumn a {color: #666666;}
+td#leftcolumn a:hover {color: #FF9933;}
+td#leftcolumn th {background-color: #88BB88; color: #FFFFFF;}
+
+td#leftcolumn div.blockTitle {color: #FFFFFF; font-weight: bold; font-size: 11px; background-color: #81B781; padding-top: 1px;  padding-bottom: 1px; padding-left: 18px; background: url(images/menu_title_left.gif); background-repeat: no-repeat; background-position: left;}
+td#leftcolumn div.blockContent {padding: 5px; line-height: 110%; margin-bottom:0px;}
+
+/* 中央コラム */
+td#centercolumn {font-size: 12px; color: #666666; padding-top: 8px; padding-left: 8px; padding-right: 8px;}
+td#centercolumn th {color: #FFFFFF; background-color: #88BB88;}
+td#contents {background-color: transparent; width: 100%;}
+
+/* 中央中コラム */
+td#centerCcolumn div.blockTitle {padding: 2px; color: #666666; font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px;  margin-bottom: 5px; font-size: 12px; background-color: transparent; padding-left: 8px; border-bottom: 1px dashed #666666;}
+td#centerCcolumn div.blockContent {margin-right: 0px; margin-left: 0px; margin-bottom: 8px; line-height: 110%;}
+
+/* 中央左コラム */
+td#centerLcolumn {width: 50%; padding-right: 8px;}
+td#centerLcolumn div.blockTitle {padding: 2px; color: #666666; font-weight: bold; font-size: 12px; margin-bottom: 6px; border-bottom: 1px dashed #666666;}
+td#centerLcolumn div.blockContent {margin-right: 0px; margin-left: 0px; line-height: 110%; padding: 2px;}
+
+/* 中央右コラム */
+td#centerRcolumn {width: 50%; padding-left: 8px;}
+td#centerRcolumn div.blockTitle {padding: 2px; color: #666666; font-weight: bold; font-size: 12px; margin-bottom: 6px; border-bottom: 1px dashed #666666;}
+td#centerRcolumn div.blockContent {margin-right: 0px; margin-left: 0px; line-height: 110%; padding: 2px;}
+
+/* 右コラム */
+td#rightcolumn {color: #729768; width: 145px; font-size: 11px; padding-top: 8px; padding-left: 8px; padding-right: 8px; background-color: transparent;}
+td#rightcolumn a {color: #548F54;}
+td#rightcolumn a:hover {color: #FF9933;}
+td#rightcolumn th {vertical-align: bottom; background-color: #88BB88; color: #FFFFFF;}
+
+td#rightcolumn div.blockTitle {padding: 2px; color: #666666; font-weight: bold; margin-left: 0px; font-size: 11px; background-color: #F4FBEC; padding-left: 3px; border-left: 1px solid #99CC99; border-top: 1px solid #99CC99; border-right: 1px solid #99CC99;}
+td#rightcolumn div.blockContent {margin-bottom: 8px; padding: 3px; line-height: 110%; border-left: 1px solid #99CC99; border-bottom: 1px solid #99CC99; border-right: 1px solid #99CC99; background-color: #F4FBEC;}
+
+/* フォーラムなどの投稿情報欄 */
+.head {font-weight: bold; color: #333333; height: 24px; line-height: 22px; text-align: center; background-color: #dddddd;}
+/* フォーラムなどの交互に色が変わる部分 */
+.even {background-color: #E2F6DA; padding: 5px;}
+.odd {background-color: #F4FBEC; padding: 5px;}
+/* フォーラムなどのフッター */
+.foot {padding: 0px; font-weight: bold;}
+
+tr.even td {background-color: #E2F6DA; padding: 5px;}
+tr.odd td {background-color: #F4FBEC; padding: 5px;}
+
+/* フッター */
+td#footer {width: 100%; color: #FFFFFF; font-size: 10px; text-align: center; padding-top: 10px; padding-bottom: 20px; background-color:#81B781;}
+td#footer a {color: #FFFFFF;}
+
+/* Xoopsメッセージ */
+div.errorMsg {background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+/* Xoopsコード */
+div.xoopsCode {background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+/* 引用 */
+div.xoopsQuote {background: #FFFFFF; border: 1px inset #000080; font-family: Osaka,Courier,monospace; padding: 0px 6px 6px 6px;}
+
+/* コメント */
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #666666; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #666666; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
